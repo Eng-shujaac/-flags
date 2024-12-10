@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: darkgoldenrod;
+}
+
+.container{
+    background: white;
+    margin: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+.container .item{
+width: 40%;
+height: 300px;
+background-color: black; 
+margin: 0 40px;
+}
+
+.container .bd{
+    background-color: #006A4D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 3px 3px gray;
+}
+
+.container .som{
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 3px 3px gray; 
+}
+
+.container .som .star{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid white;
+    position: relative;
+
+
+}
+
+.star::after{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid white;
+    position: absolute;
+    content: "";
+    top: 30px;
+    left: -50px;
+}
+
+.container .bd .crl , .jp .crl{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.container .rm{
+    position: relative;
+    display: flex;
+
+}
+
+.container .rm .fst{
+    width: 33.33%;
+    height: 300px;
+    background-color: blue;
+}
+
+.container .rm .sec{
+    width: 33.33%;
+    height: 300px;
+    background-color: #FACA15;
+}
+
+.container .rm .thr{
+    width: 33.33%;
+    height: 300px;
+    background-color: #C81025;
+}
+
+.container .per{
+    position: relative;
+    display: flex;
+    box-shadow: 3px 3px 3px 3px gray;
+
+}
+
+.container .per .fst{
+    width: 33.33%;
+    height: 300px;
+    background-color: #C81025;
+}
+.container .per .sec{
+    width: 33.33%;
+    height: 300px;
+    background-color: #f7f7f7;
+}
+.container .per .thr{
+    width: 33.33%;
+    height: 300px;
+    background-color: #C81025;
+}
+
+
+
+.container .jp{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    box-shadow: 3px 3px 3px 3px gray;
+    align-items: center;
+}
+/* 
+.container .jp .crl{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: red;
+} */
+
+.container .aus{
+    position: relative;
+      box-shadow: 3px 3px 3px 3px gray;
+
+
+}
+
+.container .aus .fst{
+    width: 100%;
+    height: 33.33%;
+    background-color: #C81025;
+}
+
+.container .aus .sec{
+    width: 100%;
+    height: 33.33%;
+    background-color: #f7f7f7;
+}
+
+.container .aus .thr{
+    width: 100%;
+    height: 33.33%;
+    background-color: #C20f2d;
+}
+
+
+
